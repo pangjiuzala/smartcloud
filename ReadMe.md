@@ -1,4 +1,4 @@
-# **[功能展示](https://v.qq.com/x/page/a0384exvs2l.html)**
+# **[演示视频](https://v.qq.com/x/page/a0384exvs2l.html)**
 
 # Web管理页面在PHP代码文件中
 
