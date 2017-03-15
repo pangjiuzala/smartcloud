@@ -1,0 +1,63 @@
+<?php if (!defined('THINK_PATH')) exit();?>﻿<html>
+			<head>
+            <link rel="stylesheet" type="text/css" href="__PUBLIC__/css/bootstrap.min.css">
+					<title>PHP第一期培训</title>
+					<meta http-equiv="content-type" content="text/html;charset=utf-8">	
+                    </head>
+                    <body>
+                    <div style=" background-color:f5f5f5">
+                    <div style="margin:0 auto 0; width:650px; font-family:'微软雅黑'; font-size:16px; padding:40px 0;">
+                        <h2 class="col-md-offset-5" style="color:#999;">报名状态</h2>
+                     <div class="row" style=" line-height:40px">
+                     <div style="border-bottom:groove #999 2px">
+                       <div class="col-md-2">软件学院</div>
+					   <?php if($mycollegeother < 35): else: endif; ?>
+                       <div class="col-md-5">正式已报<span style="color:Red"><?php echo ($mycollege); ?>人</span>剩余<span style="color:Red"><?php echo ($restmycollege); ?>人</span></div>
+                         <div class="col-md-5">预备已报<span style="color:Red"><?php echo ($mycollegeother); ?>人</span>剩余<span style="color:Red"><?php echo ($restmycollegeother); ?>人</span></div>
+                         
+                       </div>
+                      <div class="col-md-2">非软件学院</div>
+                       <div class="col-md-5">正式已报<span style="color:Red"><?php echo ($mycollegeno); ?>人</span>剩余<span style="color:Red"><?php echo ($restmycollegeno); ?>人</span></div>
+                         <div class="col-md-5">预备已报<span style="color:Red"><?php echo ($mycollegeotherno); ?>人</span>剩余<span style="color:Red"><?php echo ($restmycollegeotherno); ?>人</span></div>
+                    </div>
+                    </div>
+                    </div>
+                    <div style=" background-color:#e2e2e2;padding:10px;">
+					<form class="form-horizontal container" style="width:500px; font-family:'微软雅黑';" action="__APP__/Register/do_reg" method="post">
+                     <h2 class="form-signin-heading col-md-offset-5" style="color:#999">注册</h2>
+                     <div class="form-group">
+                     <label for="num" class="col-sm-2 control-label">学号</label>
+                           <div class="col-sm-10">
+							<input type="text" id="num" class="form-control col-sm-10" name="member_id" />
+                            </div>
+                            </div>
+                            <div class="form-group">
+                            <label for="name"  class="col-sm-2 control-label">姓名</label>
+                            <div class="col-sm-10">
+                            <input type="text" id="name" class="form-control col-sm-10" name="member_name" />
+                            </div>
+                            </div>
+                            <div class="form-group">
+                             <label for="tel"  class="col-sm-2 control-label">手机号</label>
+                             <div class="col-sm-10">
+                            <input type="text" class="form-control col-sm-10" name="member_phone" />
+                            </div>
+                            </div>
+                            <div class="form-group">
+							 <label for="vcode"  class="col-sm-2 control-label">验证码</label>
+                            <div class="col-sm-8">
+                            <input type="text" id="vcode" class="form-control col-sm-8" name="code" />
+                            </div>
+                            <div class="col-sm-2">
+                            <img src="__APP__/Public/code" onclick="this.src=this.src+'?'+Math.random">
+                            </div>
+                            </div>
+                            <div class="col-md-8">
+							<input type="submit"  class="btn col-md-offset-3 btn-lg btn-primary btn-block col-sm-8" name="submit" value="注册！"/>
+							</div>
+                    </form>
+                    </div>
+            <script type="text/javascript" src="__PUBLIC__/js/jquery-1.8.0.min.js"></script>
+			<script type="text/javascript" src="__PUBLIC__/js/bootstrap.js"></script>
+			</body>
+</html>

@@ -1,0 +1,16 @@
+<?php if (!defined('THINK_PATH')) exit();?><html>
+			<head>
+					<title>管理中心</title>
+					<meta http-equiv="content-type" content="text/html";charset="utf-8">
+			</head>
+			<frameset rows="64,*"  frameborder="NO" border="0" framespacing="0">
+						<frame src="__URL__/top" noresize="noresize" frameborder="NO" name="topFrame" scrolling="no" marginwidth="0" marginheight="0" target="main" />
+					    <frameset cols="200,*"  rows="560,*" id="frame">
+						<frame src="__URL__/left" name="leftFrame" noresize="noresize" marginwidth="0" marginheight="0" frameborder="0" scrolling="no" target="main" />
+						<frame src="__APP__/Member/index" name="main" marginwidth="0" marginheight="0" frameborder="0" scrolling="auto" target="_self" />
+					  </frameset>
+			 </frameset>
+			<noframes>
+			  <body>您的浏览器不支持分帧技术，请升级您的浏览器</body>
+			</noframes>
+</html>

@@ -1,0 +1,270 @@
+[ 2013-12-02T00:27:13+08:00 ] ERR: (ThinkException) Action:successe您所请求的方法不存在！
+[ 2013-12-02T11:40:10+08:00 ] ERR: (ThinkException) 非法操作:do_mem
+[ 2013-12-02T22:35:14+08:00 ] 127.0.0.1 /register/admin.php/Member/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002782s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003261s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002319s ]
+SQL: SHOW COLUMNS FROM `tpl_members` [ RunTime:0.010658s ]
+SQL: SELECT `member_id`,`member_name`,`member_phone`,`member_time`,`member_college`,`member_remark` FROM `tpl_members`  [ RunTime:0.003638s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002615s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003261s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.052236s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052814s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003580s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002052s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000979s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002461s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010169s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002878s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003244s ]
+
+[ 2013-12-02T22:35:18+08:00 ] 127.0.0.1 /register/admin.php/index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002857s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003297s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002320s ]
+SQL: SHOW COLUMNS FROM `tpl_admin` [ RunTime:0.008870s ]
+SQL: SELECT * FROM `tpl_admin` WHERE ( `admin_id` = '1' ) LIMIT 1   [ RunTime:0.001916s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002237s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002640s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.024551s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025197s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001363s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001696s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001085s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001807s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007021s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002028s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002404s ]
+
+[ 2013-12-02T22:35:18+08:00 ] 127.0.0.1 /register/admin.php/Index/top
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.006223s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008034s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005546s ]
+SQL: SHOW COLUMNS FROM `tpl_admin` [ RunTime:0.009306s ]
+SQL: SELECT * FROM `tpl_admin` WHERE ( `admin_id` = '1' ) LIMIT 1   [ RunTime:0.001035s ]
+SQL: SHOW COLUMNS FROM `tpl_admin` [ RunTime:0.009481s ]
+SQL: SELECT `admin_name` FROM `tpl_admin` WHERE ( `admin_id` = 1 ) LIMIT 1   [ RunTime:0.000908s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002442s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002927s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.029210s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029769s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001561s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001475s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001136s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007560s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003111s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003675s ]
+
+[ 2013-12-02T22:35:18+08:00 ] 127.0.0.1 /register/admin.php/Index/left
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.006046s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006845s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004229s ]
+SQL: SHOW COLUMNS FROM `tpl_admin` [ RunTime:0.013615s ]
+SQL: SELECT * FROM `tpl_admin` WHERE ( `admin_id` = '1' ) LIMIT 1   [ RunTime:0.001270s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.005429s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006054s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.065680s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066831s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003744s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.005296s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.003694s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003429s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019015s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002906s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003317s ]
+
+[ 2013-12-02T22:35:19+08:00 ] 127.0.0.1 /register/admin.php/Member/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.006628s ]
+INFO: [ route_check ] --END-- [ RunTime:0.007422s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.005002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005656s ]
+SQL: SHOW COLUMNS FROM `tpl_members` [ RunTime:0.012630s ]
+SQL: SELECT `member_id`,`member_name`,`member_phone`,`member_time`,`member_college`,`member_remark` FROM `tpl_members`  [ RunTime:0.022501s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002329s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003313s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.088237s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.088843s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.005400s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.009049s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001896s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.006557s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.025115s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003747s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004497s ]
+
+[ 2013-12-02T22:35:23+08:00 ] 127.0.0.1 /register/admin.php/login/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002734s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003172s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002283s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002965s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003431s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.032338s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032841s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001933s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001815s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001313s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002426s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008555s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002801s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003192s ]
+
+[ 2013-12-02T22:35:23+08:00 ] 127.0.0.1 /register/admin.php/Public/code
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.007056s ]
+INFO: [ route_check ] --END-- [ RunTime:0.007948s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003124s ]
+
+[ 2013-12-02T22:35:33+08:00 ] 127.0.0.1 /register/admin.php/Public/code?function%20random()%20{%20[native%20code]%20}
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003543s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003982s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002900s ]
+
+[ 2013-12-02T22:35:39+08:00 ] 127.0.0.1 /register/admin.php/index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003221s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003736s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002143s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002583s ]
+SQL: SHOW COLUMNS FROM `tpl_admin` [ RunTime:0.008943s ]
+SQL: SELECT * FROM `tpl_admin` WHERE ( `admin_id` = '1' ) LIMIT 1   [ RunTime:0.000979s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003640s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004183s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.031149s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031609s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001758s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001899s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001958s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002587s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009557s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003634s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004265s ]
+
+[ 2013-12-02T22:35:39+08:00 ] 127.0.0.1 /register/admin.php/Index/top
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005811s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006762s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002778s ]
+SQL: SHOW COLUMNS FROM `tpl_admin` [ RunTime:0.010140s ]
+SQL: SELECT * FROM `tpl_admin` WHERE ( `admin_id` = '1' ) LIMIT 1   [ RunTime:0.000994s ]
+SQL: SHOW COLUMNS FROM `tpl_admin` [ RunTime:0.009142s ]
+SQL: SELECT `admin_name` FROM `tpl_admin` WHERE ( `admin_id` = 1 ) LIMIT 1   [ RunTime:0.000918s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002011s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002433s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.028059s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028506s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001496s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001483s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000904s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001855s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006841s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002107s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002502s ]
+
+[ 2013-12-02T22:35:39+08:00 ] 127.0.0.1 /register/admin.php/Index/left
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005298s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006126s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004290s ]
+SQL: SHOW COLUMNS FROM `tpl_admin` [ RunTime:0.013782s ]
+SQL: SELECT * FROM `tpl_admin` WHERE ( `admin_id` = '1' ) LIMIT 1   [ RunTime:0.001406s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004879s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005621s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.046231s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047031s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003260s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003732s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001723s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.020328s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002169s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002570s ]
+
+[ 2013-12-02T22:35:39+08:00 ] 127.0.0.1 /register/admin.php/Member/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004573s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005301s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003776s ]
+SQL: SHOW COLUMNS FROM `tpl_members` [ RunTime:0.012882s ]
+SQL: SELECT `member_id`,`member_name`,`member_phone`,`member_time`,`member_college`,`member_remark` FROM `tpl_members`  [ RunTime:0.003558s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.005876s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006587s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.081215s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081824s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.005040s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003455s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002765s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003231s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016310s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003626s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004116s ]
+

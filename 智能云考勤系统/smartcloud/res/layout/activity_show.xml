@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/library"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/show"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/library"
+                android:cursorVisible="false"
+                android:editable="false"
+                android:maxLines="10000"
+                android:singleLine="false"
+                android:textScaleX="1.0"
+                android:textSize="30dp" />
+</LinearLayout>

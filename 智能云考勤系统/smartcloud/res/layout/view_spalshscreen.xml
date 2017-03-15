@@ -1,0 +1,103 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/startup_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_gravity="center"
+        android:layout_weight="6.9"
+        android:gravity="center" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_gravity="center"
+        android:layout_weight="6.9"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="智 能 云 考 勤 系 统"
+            android:textColor="#FFFF00"
+            android:textSize="30dip" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_gravity="center"
+        android:layout_weight="2.8"
+        android:gravity="center" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_gravity="center"
+        android:layout_weight="1.1"
+        android:gravity="center" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_gravity="center"
+        android:layout_weight="2.8"
+        android:gravity="center" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_gravity="center"
+        android:layout_weight="7.5"
+        android:gravity="center" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_gravity="center"
+        android:layout_weight="7.5"
+        android:gravity="center" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_gravity="center"
+        android:layout_weight="5.5"
+        android:gravity="center" >
+
+        <ProgressBar
+            android:id="@+id/pbLoginWait"
+            android:layout_width="40.0dip"
+            android:layout_height="40.0dip"
+            android:gravity="center"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_gravity="center"
+        android:layout_weight="2.5"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Copyright @2014 Xingyuan All rights reserved."
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+</LinearLayout>

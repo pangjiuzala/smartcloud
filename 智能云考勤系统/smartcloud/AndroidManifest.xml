@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nuc.smartcloud"
+    android:versionCode="61"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="3"
+        android:targetSdkVersion="4" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <application
+        android:debuggable="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name" >
+        <activity
+            android:name="com.nuc.smartcloud.extra.SplashscreenActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.zxing.client.android.SCAN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="zxing.appspot.com"
+                    android:path="/scan"
+                    android:scheme="http" />
+            </intent-filter>
+            <!-- We also support a Google Product Search URL. -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="www.google.com"
+                    android:path="/m/products/scan"
+                    android:scheme="http" />
+            </intent-filter>
+            <!-- And the UK version. -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="www.google.co.uk"
+                    android:path="/m/products/scan"
+                    android:scheme="http" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.nuc.smartcloud.main.WelcomeActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.nuc.smartcloud.main.StaffDeleteActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.nuc.smartcloud.main.IPRegisterActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.nuc.smartcloud.main.ManagertoClearActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.nuc.smartcloud.main.RecordQueryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nuc.smartcloud.main.ManagertoClearIpActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.nuc.smartcloud.main.IPDeleteActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.nuc.smartcloud.main.UserRegisterActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.nuc.smartcloud.main.ManagertoIPActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.nuc.smartcloud.main.UserDeleteActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.nuc.smartcloud.main.ManagertoUserActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nuc.smartcloud.main.RecordDeleteActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nuc.smartcloud.main.LoginActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.nuc.smartcloud.main.ManagertoStaffActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.nuc.smartcloud.client.android.PreferencesActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.nuc.smartcloud.client.android.CaptureActivity"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.nuc.smartcloud.client.android.encode.EncodeActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.google.zxing.client.android.ENCODE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <!-- This allows us to handle the Share button in Contacts. -->
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="text/x-vcard" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name="com.test.NetworkBroadcast"
+            android:label="NetworkConnection" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".book.SearchBookContentsActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/sbc_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.google.zxing.client.android.SEARCH_BOOK_CONTENTS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".wifi.WifiActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/wa_name" >
+        </activity>
+        <activity
+            android:name=".share.ShareActivity"
+            android:label="@string/share_name"
+            android:screenOrientation="user" >
+            <intent-filter>
+                <action android:name="com.google.zxing.client.android.SHARE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".share.BookmarkPickerActivity"
+            android:label="@string/bookmark_picker_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.PICK" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".share.AppPickerActivity"
+            android:label="@string/app_picker_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.PICK" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.nuc.smartcloud.client.android.HelpActivity"
+            android:screenOrientation="user" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.nuc.smartcloud.main.AboutActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.nuc.smartcloud.main.PopupWindowTest"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.nuc.smartcloud.main.QRcodeActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.nuc.smartcloud.main.GridViewTest"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.nuc.smartcloud.main.FirstActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.nuc.smartcloud.main.Education"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.nuc.smartcloud.main.Situation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.nuc.smartcloud.main.LoginActivity1"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="sharesdk.SharePage"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="com.nuc.zhigong.link.Link"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.nuc.zhigong.lovingdraw.LovingDrawActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.nuc.zhigong.puzzlegame.GridViewTest"
+            android:screenOrientation="portrait" >
+            >
+        </activity>
+        <activity
+            android:name="com.nuc.zhigong.write.AddGesture"
+            android:screenOrientation="portrait" >
+            > 
+        </activity>
+        <activity
+            android:name="com.nuc.zhigong.write.AddGesture1"
+            android:screenOrientation="portrait" >
+            >
+        </activity>
+        <activity
+            android:name="com.nuc.zhigong.write.AddGesture2"
+            android:screenOrientation="portrait" >
+            >
+        </activity>
+        <activity
+            android:name="com.nuc.zhigong.write.AddGesture3"
+            android:screenOrientation="portrait" >
+            >
+        </activity>
+        <activity
+            android:name="com.nuc.zhigong.write.AddGesture4"
+            android:screenOrientation="portrait" >
+            >
+        </activity>
+        <activity
+            android:name="com.nuc.zhigong.write.Write"
+            android:screenOrientation="portrait" >
+            >
+        </activity>
+        <activity
+            android:name="com.nuc.zhigong.write.RecogniseGesture"
+            android:screenOrientation="portrait" >
+            >
+        </activity>
+        <activity
+            android:name="com.nuc.smartcloud.extra.AccelerometerTest"
+            android:screenOrientation="portrait" >
+            >
+        </activity>
+        <activity
+            android:name="com.nuc.smartcloud.extra.ViewHtml"
+            android:screenOrientation="portrait" >
+            >
+        </activity>
+        <activity
+            android:name="com.nuc.zhigong.chess.ChessActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.nuc.zhigong.puzzlegame.PuzzleGame"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.nuc.zhigong.puzzlegame.PuzzleGame1"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.nuc.zhigong.puzzlegame.PuzzleGame2"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.nuc.zhigong.puzzlegame.PuzzleGame3"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.nuc.zhigong.puzzlegame.PuzzleGame4"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.nuc.zhigong.puzzlegame.PuzzleGame5"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.nuc.zhigong.puzzlegame.PuzzleGame6"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.nuc.smartcloud.extra.LoadingActivity1"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.nuc.smartcloud.extra.LoadingActivity2"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.nuc.smartcloud.extra.LoadingActivity3"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.nuc.smartcloud.extra.LoadingActivity4"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.nuc.smartcloud.extra.LoadingActivity5"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.nuc.zhigong.puzzlegame.PuzzleGame7"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.nuc.zhigong.puzzlegame.PuzzleGame8"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.nuc.zhigong.puzzlegame.PuzzleGame9"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.nuc.zhigong.puzzlegame.PuzzleGame10"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.nuc.zhigong.puzzlegame.PuzzleGame11"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.nuc.zhigong.puzzlegame.PuzzleGame12"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.nuc.zhigong.puzzlegame.PuzzleGame13"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.nuc.zhigong.puzzlegame.PuzzleGame14"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.nuc.smartcloud.extra.GallaryTest"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.nuc.smartcloud.extra.PuzzleActivity4"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.nuc.smartcloud.extra.PuzzleActivity5"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.nuc.smartcloud.extra.PuzzleActivity6"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.nuc.smartcloud.extra.PuzzleActivity7"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+    <!-- 添加操作闪光灯的权限 -->
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <!-- 添加操作振动器的权限 -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- <uses-permission android:name="android.permission.GET_TASKS" /> -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!-- Wifi related -->
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+</manifest>

@@ -1,0 +1,639 @@
+[ 2013-12-04T08:06:46+08:00 ] 127.0.0.1 /register/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004715s ]
+SQL: SHOW COLUMNS FROM `tpl_members` [ RunTime:0.041570s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 1 ) AND ( `member_remark` = '填报成功！' ) LIMIT 1   [ RunTime:0.001546s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 1 ) AND ( `member_remark` = '填报成功！' ) LIMIT 1   [ RunTime:0.001143s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 1 ) AND ( `member_remark` = '预备！' ) LIMIT 1   [ RunTime:0.001569s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 1 ) AND ( `member_remark` = '预备！' ) LIMIT 1   [ RunTime:0.001186s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 2 ) AND ( `member_remark` = '填报成功！' ) LIMIT 1   [ RunTime:0.001145s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 2 ) AND ( `member_remark` = '填报成功！' ) LIMIT 1   [ RunTime:0.001031s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 2 ) AND ( `member_remark` = '预备！' ) LIMIT 1   [ RunTime:0.001028s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002887s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003306s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.054974s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055361s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001756s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001708s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001383s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003139s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009115s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002453s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002809s ]
+
+[ 2013-12-04T08:06:46+08:00 ] 127.0.0.1 /register/index.php/Public/code
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005295s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005966s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004089s ]
+
+[ 2013-12-04T08:16:04+08:00 ] ERR: (ThinkException) Access denied for user 'root'@'localhost' (using password: YES)
+[ 2013-12-04T08:16:15+08:00 ] 127.0.0.1 /register/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003051s ]
+SQL: SHOW COLUMNS FROM `tpl_members` [ RunTime:0.009457s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 1 ) AND ( `member_remark` = '填报成功！' ) LIMIT 1   [ RunTime:0.001211s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 1 ) AND ( `member_remark` = '填报成功！' ) LIMIT 1   [ RunTime:0.001041s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 1 ) AND ( `member_remark` = '预备！' ) LIMIT 1   [ RunTime:0.001141s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 1 ) AND ( `member_remark` = '预备！' ) LIMIT 1   [ RunTime:0.001073s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 2 ) AND ( `member_remark` = '填报成功！' ) LIMIT 1   [ RunTime:0.001167s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 2 ) AND ( `member_remark` = '填报成功！' ) LIMIT 1   [ RunTime:0.001079s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 2 ) AND ( `member_remark` = '预备！' ) LIMIT 1   [ RunTime:0.000926s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 2 ) AND ( `member_remark` = '预备！' ) LIMIT 1   [ RunTime:0.001011s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003029s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003576s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.054528s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055113s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002749s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002808s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002081s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002715s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012308s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002695s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003131s ]
+
+[ 2013-12-04T08:16:15+08:00 ] 127.0.0.1 /register/index.php/Public/code
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005666s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009106s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005372s ]
+
+[ 2013-12-04T08:17:35+08:00 ] 127.0.0.1 /register/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003028s ]
+SQL: SHOW COLUMNS FROM `tpl_members` [ RunTime:0.009605s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 1 ) AND ( `member_remark` = '填报成功！' ) LIMIT 1   [ RunTime:0.001261s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 1 ) AND ( `member_remark` = '填报成功！' ) LIMIT 1   [ RunTime:0.001038s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 1 ) AND ( `member_remark` = '预备！' ) LIMIT 1   [ RunTime:0.001061s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 1 ) AND ( `member_remark` = '预备！' ) LIMIT 1   [ RunTime:0.001018s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 2 ) AND ( `member_remark` = '填报成功！' ) LIMIT 1   [ RunTime:0.001360s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 2 ) AND ( `member_remark` = '填报成功！' ) LIMIT 1   [ RunTime:0.001021s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 2 ) AND ( `member_remark` = '预备！' ) LIMIT 1   [ RunTime:0.001235s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 2 ) AND ( `member_remark` = '预备！' ) LIMIT 1   [ RunTime:0.001086s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002904s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003396s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.054031s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054423s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001806s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001724s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001449s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003159s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009278s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002709s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003055s ]
+
+[ 2013-12-04T08:17:36+08:00 ] 127.0.0.1 /register/index.php/Public/code
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.006369s ]
+INFO: [ route_check ] --END-- [ RunTime:0.007182s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003909s ]
+
+[ 2013-12-04T08:17:47+08:00 ] 127.0.0.1 /register/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002438s ]
+SQL: SHOW COLUMNS FROM `tpl_members` [ RunTime:0.009552s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 1 ) AND ( `member_remark` = '填报成功！' ) LIMIT 1   [ RunTime:0.001170s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 1 ) AND ( `member_remark` = '填报成功！' ) LIMIT 1   [ RunTime:0.001125s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 1 ) AND ( `member_remark` = '预备！' ) LIMIT 1   [ RunTime:0.001279s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 1 ) AND ( `member_remark` = '预备！' ) LIMIT 1   [ RunTime:0.001166s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 2 ) AND ( `member_remark` = '填报成功！' ) LIMIT 1   [ RunTime:0.001132s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 2 ) AND ( `member_remark` = '填报成功！' ) LIMIT 1   [ RunTime:0.001093s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 2 ) AND ( `member_remark` = '预备！' ) LIMIT 1   [ RunTime:0.001092s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 2 ) AND ( `member_remark` = '预备！' ) LIMIT 1   [ RunTime:0.001063s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003043s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003447s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.052184s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052582s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001775s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001742s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001396s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002320s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008285s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003377s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003873s ]
+
+[ 2013-12-04T08:17:47+08:00 ] 127.0.0.1 /register/index.php/Public/code
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004492s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005159s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003233s ]
+
+[ 2013-12-04T08:17:53+08:00 ] 127.0.0.1 /register/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002597s ]
+SQL: SHOW COLUMNS FROM `tpl_members` [ RunTime:0.009933s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 1 ) AND ( `member_remark` = '填报成功！' ) LIMIT 1   [ RunTime:0.001250s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 1 ) AND ( `member_remark` = '填报成功！' ) LIMIT 1   [ RunTime:0.001044s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 1 ) AND ( `member_remark` = '预备！' ) LIMIT 1   [ RunTime:0.001480s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 1 ) AND ( `member_remark` = '预备！' ) LIMIT 1   [ RunTime:0.001471s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 2 ) AND ( `member_remark` = '填报成功！' ) LIMIT 1   [ RunTime:0.000948s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 2 ) AND ( `member_remark` = '填报成功！' ) LIMIT 1   [ RunTime:0.000920s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 2 ) AND ( `member_remark` = '预备！' ) LIMIT 1   [ RunTime:0.000907s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 2 ) AND ( `member_remark` = '预备！' ) LIMIT 1   [ RunTime:0.001100s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001758s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002118s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.030342s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030731s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001416s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001452s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000931s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001742s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006543s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002016s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002347s ]
+
+[ 2013-12-04T08:17:54+08:00 ] 127.0.0.1 /register/index.php/Public/code
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005719s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006412s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.007482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008189s ]
+
+[ 2013-12-04T08:18:03+08:00 ] 127.0.0.1 /register/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002580s ]
+SQL: SHOW COLUMNS FROM `tpl_members` [ RunTime:0.009371s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 1 ) AND ( `member_remark` = '填报成功！' ) LIMIT 1   [ RunTime:0.001270s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 1 ) AND ( `member_remark` = '填报成功！' ) LIMIT 1   [ RunTime:0.001074s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 1 ) AND ( `member_remark` = '预备！' ) LIMIT 1   [ RunTime:0.001267s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 1 ) AND ( `member_remark` = '预备！' ) LIMIT 1   [ RunTime:0.000962s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 2 ) AND ( `member_remark` = '填报成功！' ) LIMIT 1   [ RunTime:0.001162s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 2 ) AND ( `member_remark` = '填报成功！' ) LIMIT 1   [ RunTime:0.001226s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 2 ) AND ( `member_remark` = '预备！' ) LIMIT 1   [ RunTime:0.001102s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 2 ) AND ( `member_remark` = '预备！' ) LIMIT 1   [ RunTime:0.001032s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001643s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001989s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.032156s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032673s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001444s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001447s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001222s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007157s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003173s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003690s ]
+
+[ 2013-12-04T08:18:03+08:00 ] 127.0.0.1 /register/index.php/Public/code
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004645s ]
+INFO: [ route_check ] --END-- [ RunTime:0.007219s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003432s ]
+
+[ 2013-12-04T08:19:15+08:00 ] 127.0.0.1 /register/index.php/index/index.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002665s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003057s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002330s ]
+SQL: SHOW COLUMNS FROM `tpl_members` [ RunTime:0.010043s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 1 ) AND ( `member_remark` = '填报成功！' ) LIMIT 1   [ RunTime:0.001252s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 1 ) AND ( `member_remark` = '填报成功！' ) LIMIT 1   [ RunTime:0.001379s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 1 ) AND ( `member_remark` = '预备！' ) LIMIT 1   [ RunTime:0.001301s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 1 ) AND ( `member_remark` = '预备！' ) LIMIT 1   [ RunTime:0.001335s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 2 ) AND ( `member_remark` = '填报成功！' ) LIMIT 1   [ RunTime:0.001176s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 2 ) AND ( `member_remark` = '填报成功！' ) LIMIT 1   [ RunTime:0.000978s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 2 ) AND ( `member_remark` = '预备！' ) LIMIT 1   [ RunTime:0.001275s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 2 ) AND ( `member_remark` = '预备！' ) LIMIT 1   [ RunTime:0.001023s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002805s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003271s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.034154s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034692s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002151s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002305s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001731s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002604s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010621s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002279s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002651s ]
+
+[ 2013-12-04T08:19:15+08:00 ] 127.0.0.1 /register/index.php/Public/code
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005485s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006218s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.005728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006426s ]
+
+[ 2013-12-04T08:19:37+08:00 ] 127.0.0.1 /register/index.php/index/index.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003338s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003748s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002131s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002522s ]
+SQL: SHOW COLUMNS FROM `tpl_members` [ RunTime:0.010790s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 1 ) AND ( `member_remark` = '填报成功！' ) LIMIT 1   [ RunTime:0.001244s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 1 ) AND ( `member_remark` = '填报成功！' ) LIMIT 1   [ RunTime:0.001119s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 1 ) AND ( `member_remark` = '预备！' ) LIMIT 1   [ RunTime:0.001153s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 1 ) AND ( `member_remark` = '预备！' ) LIMIT 1   [ RunTime:0.001075s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 2 ) AND ( `member_remark` = '填报成功！' ) LIMIT 1   [ RunTime:0.001093s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 2 ) AND ( `member_remark` = '填报成功！' ) LIMIT 1   [ RunTime:0.001031s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 2 ) AND ( `member_remark` = '预备！' ) LIMIT 1   [ RunTime:0.000979s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 2 ) AND ( `member_remark` = '预备！' ) LIMIT 1   [ RunTime:0.001056s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001779s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002170s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.030085s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030568s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001375s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001478s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000907s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002039s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006755s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002064s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002410s ]
+
+[ 2013-12-04T08:19:37+08:00 ] 127.0.0.1 /register/index.php/Public/code
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.011830s ]
+INFO: [ route_check ] --END-- [ RunTime:0.012492s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004178s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006372s ]
+
+[ 2013-12-04T08:20:10+08:00 ] 127.0.0.1 /register/index.php/index/index.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004088s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004562s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002370s ]
+SQL: SHOW COLUMNS FROM `tpl_members` [ RunTime:0.009310s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 1 ) AND ( `member_remark` = '填报成功！' ) LIMIT 1   [ RunTime:0.001529s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 1 ) AND ( `member_remark` = '填报成功！' ) LIMIT 1   [ RunTime:0.001521s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 1 ) AND ( `member_remark` = '预备！' ) LIMIT 1   [ RunTime:0.001565s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 1 ) AND ( `member_remark` = '预备！' ) LIMIT 1   [ RunTime:0.001121s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 2 ) AND ( `member_remark` = '填报成功！' ) LIMIT 1   [ RunTime:0.001053s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 2 ) AND ( `member_remark` = '填报成功！' ) LIMIT 1   [ RunTime:0.001293s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 2 ) AND ( `member_remark` = '预备！' ) LIMIT 1   [ RunTime:0.001104s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 2 ) AND ( `member_remark` = '预备！' ) LIMIT 1   [ RunTime:0.001092s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001640s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001980s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.030696s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031242s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001607s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001526s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001269s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007902s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002280s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002635s ]
+
+[ 2013-12-04T08:20:11+08:00 ] 127.0.0.1 /register/index.php/Public/code
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004304s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004971s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003156s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003764s ]
+
+[ 2013-12-04T08:20:33+08:00 ] 127.0.0.1 /register/index.php/index/index.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002950s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003356s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002234s ]
+SQL: SHOW COLUMNS FROM `tpl_members` [ RunTime:0.008590s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 1 ) AND ( `member_remark` = '填报成功！' ) LIMIT 1   [ RunTime:0.001323s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 1 ) AND ( `member_remark` = '填报成功！' ) LIMIT 1   [ RunTime:0.001211s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 1 ) AND ( `member_remark` = '预备！' ) LIMIT 1   [ RunTime:0.001489s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 1 ) AND ( `member_remark` = '预备！' ) LIMIT 1   [ RunTime:0.001075s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 2 ) AND ( `member_remark` = '填报成功！' ) LIMIT 1   [ RunTime:0.001107s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 2 ) AND ( `member_remark` = '填报成功！' ) LIMIT 1   [ RunTime:0.001313s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 2 ) AND ( `member_remark` = '预备！' ) LIMIT 1   [ RunTime:0.001289s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 2 ) AND ( `member_remark` = '预备！' ) LIMIT 1   [ RunTime:0.001242s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002590s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002938s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.030783s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031169s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001392s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001402s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000966s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002132s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006871s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002024s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002373s ]
+
+[ 2013-12-04T08:20:33+08:00 ] 127.0.0.1 /register/index.php/Public/code
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005608s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006291s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003191s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003993s ]
+
+[ 2013-12-04T08:21:55+08:00 ] 127.0.0.1 /register/index.php/index/index.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003327s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003832s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002536s ]
+SQL: SHOW COLUMNS FROM `tpl_members` [ RunTime:0.009441s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 1 ) AND ( `member_remark` = '填报成功！' ) LIMIT 1   [ RunTime:0.001548s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 1 ) AND ( `member_remark` = '填报成功！' ) LIMIT 1   [ RunTime:0.001130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 1 ) AND ( `member_remark` = '预备！' ) LIMIT 1   [ RunTime:0.001092s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 1 ) AND ( `member_remark` = '预备！' ) LIMIT 1   [ RunTime:0.001342s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 2 ) AND ( `member_remark` = '填报成功！' ) LIMIT 1   [ RunTime:0.001348s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 2 ) AND ( `member_remark` = '填报成功！' ) LIMIT 1   [ RunTime:0.001334s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 2 ) AND ( `member_remark` = '预备！' ) LIMIT 1   [ RunTime:0.001117s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 2 ) AND ( `member_remark` = '预备！' ) LIMIT 1   [ RunTime:0.001046s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003061s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003452s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.032023s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032423s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002292s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002392s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001249s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009042s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002395s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002792s ]
+
+[ 2013-12-04T08:21:55+08:00 ] 127.0.0.1 /register/index.php/Public/code
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004595s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005231s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005031s ]
+
+[ 2013-12-04T08:22:21+08:00 ] 127.0.0.1 /register/index.php/Public/code?function%20random()%20{%20[native%20code]%20}
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003602s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003997s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002612s ]
+
+[ 2013-12-04T08:22:29+08:00 ] 127.0.0.1 /register/index.php/index/index.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003302s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003756s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002272s ]
+SQL: SHOW COLUMNS FROM `tpl_members` [ RunTime:0.010822s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 1 ) AND ( `member_remark` = '填报成功！' ) LIMIT 1   [ RunTime:0.001240s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 1 ) AND ( `member_remark` = '填报成功！' ) LIMIT 1   [ RunTime:0.001114s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 1 ) AND ( `member_remark` = '预备！' ) LIMIT 1   [ RunTime:0.001061s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 1 ) AND ( `member_remark` = '预备！' ) LIMIT 1   [ RunTime:0.001470s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 2 ) AND ( `member_remark` = '填报成功！' ) LIMIT 1   [ RunTime:0.001197s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 2 ) AND ( `member_remark` = '填报成功！' ) LIMIT 1   [ RunTime:0.001019s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 2 ) AND ( `member_remark` = '预备！' ) LIMIT 1   [ RunTime:0.001037s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 2 ) AND ( `member_remark` = '预备！' ) LIMIT 1   [ RunTime:0.001038s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002569s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002925s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.031672s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032090s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002437s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001532s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000924s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001771s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007639s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002199s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002559s ]
+
+[ 2013-12-04T08:22:29+08:00 ] 127.0.0.1 /register/index.php/Public/code
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004540s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005241s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002457s ]
+
+[ 2013-12-04T08:24:11+08:00 ] 127.0.0.1 /register/index.php/index/index.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003340s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003961s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003395s ]
+SQL: SHOW COLUMNS FROM `tpl_members` [ RunTime:0.011138s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 1 ) AND ( `member_remark` = '填报成功！' ) LIMIT 1   [ RunTime:0.001288s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 1 ) AND ( `member_remark` = '填报成功！' ) LIMIT 1   [ RunTime:0.001031s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 1 ) AND ( `member_remark` = '预备！' ) LIMIT 1   [ RunTime:0.001068s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 1 ) AND ( `member_remark` = '预备！' ) LIMIT 1   [ RunTime:0.001179s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 2 ) AND ( `member_remark` = '填报成功！' ) LIMIT 1   [ RunTime:0.001412s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 2 ) AND ( `member_remark` = '填报成功！' ) LIMIT 1   [ RunTime:0.001177s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 2 ) AND ( `member_remark` = '预备！' ) LIMIT 1   [ RunTime:0.001007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 2 ) AND ( `member_remark` = '预备！' ) LIMIT 1   [ RunTime:0.001027s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002559s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002916s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.030362s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030749s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001397s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001447s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000879s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001834s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006719s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002022s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002371s ]
+
+[ 2013-12-04T08:24:11+08:00 ] 127.0.0.1 /register/index.php/Public/code
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003182s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003714s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002165s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002546s ]
+
+[ 2013-12-04T08:24:41+08:00 ] 127.0.0.1 /register/index.php/Public/code?function%20random()%20{%20[native%20code]%20}
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003731s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004144s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003230s ]
+
+[ 2013-12-04T08:24:42+08:00 ] 127.0.0.1 /register/index.php/Public/code?function%20random()%20{%20[native%20code]%20}?function%20random()%20{%20[native%20code]%20}
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002537s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002953s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002180s ]
+
+[ 2013-12-04T08:24:43+08:00 ] 127.0.0.1 /register/index.php/Public/code?function%20random()%20{%20[native%20code]%20}?function%20random()%20{%20[native%20code]%20}?function%20random()%20{%20[native%20code]%20}
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002567s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002972s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002318s ]
+
+[ 2013-12-04T08:24:44+08:00 ] 127.0.0.1 /register/index.php/Public/code?function%20random()%20{%20[native%20code]%20}?function%20random()%20{%20[native%20code]%20}?function%20random()%20{%20[native%20code]%20}?function%20random()%20{%20[native%20code]%20}
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002561s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002946s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002219s ]
+
+[ 2013-12-04T08:24:50+08:00 ] 127.0.0.1 /register/index.php/index/index.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003457s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003857s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002364s ]
+SQL: SHOW COLUMNS FROM `tpl_members` [ RunTime:0.008845s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 1 ) AND ( `member_remark` = '填报成功！' ) LIMIT 1   [ RunTime:0.001612s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 1 ) AND ( `member_remark` = '填报成功！' ) LIMIT 1   [ RunTime:0.001041s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 1 ) AND ( `member_remark` = '预备！' ) LIMIT 1   [ RunTime:0.000974s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 1 ) AND ( `member_remark` = '预备！' ) LIMIT 1   [ RunTime:0.001238s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 2 ) AND ( `member_remark` = '填报成功！' ) LIMIT 1   [ RunTime:0.001146s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 2 ) AND ( `member_remark` = '预备！' ) LIMIT 1   [ RunTime:0.001019s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 2 ) AND ( `member_remark` = '预备！' ) LIMIT 1   [ RunTime:0.001029s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002530s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002932s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.031835s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032221s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001372s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001392s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000913s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001857s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006616s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002006s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002356s ]
+
+[ 2013-12-04T08:24:50+08:00 ] 127.0.0.1 /register/index.php/Public/code
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002666s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003057s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004850s ]
+
+[ 2013-12-04T08:25:16+08:00 ] 127.0.0.1 /register/index.php/Public/code?function%20random()%20{%20[native%20code]%20}
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002590s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003011s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002180s ]
+
+[ 2013-12-04T08:25:17+08:00 ] 127.0.0.1 /register/index.php/Public/code?function%20random()%20{%20[native%20code]%20}?function%20random()%20{%20[native%20code]%20}
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002611s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003036s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002216s ]
+
+[ 2013-12-04T08:25:25+08:00 ] 127.0.0.1 /register/index.php/index/index.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002584s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003104s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002446s ]
+SQL: SHOW COLUMNS FROM `tpl_members` [ RunTime:0.009223s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 1 ) AND ( `member_remark` = '填报成功！' ) LIMIT 1   [ RunTime:0.001135s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 1 ) AND ( `member_remark` = '填报成功！' ) LIMIT 1   [ RunTime:0.001105s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 1 ) AND ( `member_remark` = '预备！' ) LIMIT 1   [ RunTime:0.001123s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 1 ) AND ( `member_remark` = '预备！' ) LIMIT 1   [ RunTime:0.001051s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 2 ) AND ( `member_remark` = '填报成功！' ) LIMIT 1   [ RunTime:0.001055s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 2 ) AND ( `member_remark` = '预备！' ) LIMIT 1   [ RunTime:0.001223s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpl_members` WHERE ( `member_college` = 2 ) AND ( `member_remark` = '预备！' ) LIMIT 1   [ RunTime:0.001052s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001747s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002112s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.029342s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029745s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001414s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001444s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000893s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001710s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006431s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001918s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002249s ]
+
+[ 2013-12-04T08:25:25+08:00 ] 127.0.0.1 /register/index.php/Public/code
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002895s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003480s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004102s ]
+
+[ 2013-12-04T16:48:48+08:00 ] ERR: (ThinkException) 无法加载模块:Error
+[ 2013-12-04T16:49:02+08:00 ] ERR: (ThinkException) 无法加载模块:Error
+[ 2013-12-04T16:49:05+08:00 ] ERR: (ThinkException) 无法加载模块:Error
