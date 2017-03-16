@@ -1,14 +1,14 @@
-# **[ÑİÊ¾ÊÓÆµ](https://v.qq.com/x/page/a0384exvs2l.html)**
+## **[æ¼”ç¤ºè§†é¢‘](https://v.qq.com/x/page/a0384exvs2l.html)**
 
-# Web¹ÜÀíÒ³ÃæÔÚPHP´úÂëÎÄ¼şÖĞ
+## Webç®¡ç†é¡µé¢åœ¨PHPä»£ç æ–‡ä»¶ä¸­
 
-# Í¨¹ıÉ¨Ãè¶şÎ¬Âë½øĞĞÇ©µ½ÅäÖÃ
+## é€šè¿‡æ‰«æäºŒç»´ç è¿›è¡Œç­¾åˆ°é…ç½®
 
-# ±àÒë»·¾³Myeclipse 2014
+## ç¼–è¯‘ç¯å¢ƒMyeclipse 2014
 
-# ÓÉÓÚÖ®Ç°µÄ°¢ÀïÔÆÊı¾İ¿âÒÑ¾­¹ıÆÚ£¬ÄãĞèÒªÖØĞÂ°Ñregister.sqlÊı¾İµ¼Èëµ½ÄãµÄÔÆ¶Ë·şÎñÆ÷ÖĞ
+## ç”±äºä¹‹å‰çš„é˜¿é‡Œäº‘æ•°æ®åº“å·²ç»è¿‡æœŸï¼Œä½ éœ€è¦é‡æ–°æŠŠregister.sqlæ•°æ®å¯¼å…¥åˆ°ä½ çš„äº‘ç«¯æœåŠ¡å™¨ä¸­
 
 
-# Êı¾İ¿âÁ¬½ÓĞÅÏ¢ÔÚ/src/com/nuc/smartcloud/CustomUti.javaÖĞµÄgetConnection·½·¨ÖĞÅäÖÃ
+## æ•°æ®åº“è¿æ¥ä¿¡æ¯åœ¨/src/com/nuc/smartcloud/CustomUti.javaä¸­çš„getConnectionæ–¹æ³•ä¸­é…ç½®
 
-# Êı¾İ¿âÓÃ»§ÃûÔÚ£º/src/com/nuc/smartcloud/Constant.javaÖĞSMARTCLOUD_FIRST³£Á¿¶¨Òå£¬ÃÜÂëÎªSMARTCLOUD_SECOND³£Á¿¶¨Òå
+## æ•°æ®åº“ç”¨æˆ·ååœ¨ï¼š/src/com/nuc/smartcloud/Constant.javaä¸­SMARTCLOUD_FIRSTå¸¸é‡å®šä¹‰ï¼Œå¯†ç ä¸ºSMARTCLOUD_SECONDå¸¸é‡å®šä¹‰
